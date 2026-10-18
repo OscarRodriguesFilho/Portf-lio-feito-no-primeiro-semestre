@@ -3,110 +3,532 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio | Oscar Rodrigues</title>
-  <!-- Fonte Poppins -->
+  <title>Oscar Rodrigues · Portfólio</title>
+  <meta name="description" content="Aplicações, guias de estudo e projetos de Oscar Rodrigues — Ciência da Computação no Insper.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#sobre-mim">Minha História</a>
-      <a href="#projetos">Projetos</a>
-      <a href="#certificados">Certificados</a>
-      <a href="#participacoes">Participações</a>
-      <a href="#habilidades">Habilidades</a>
-      <a href="#contato">Contato</a>
-    </nav>
-  </header>
-  <div class="hero" id="sobre">
-    <h1> Oscar Rodrigues</h1>
-    <p>Apaixonado por tecnologia, jogos e desenvolvimento web. Busco inovar em cada projeto e aprender continuamente.</p>
-    <button class="btn" onclick="location.href='#sobre-mim'">Minha História</button>
-  </div>
-  <section id="sobre-mim">
-    <h2>Minha História</h2>
-    <div id="section-about" class="grid participations">
-      <img src="img/7.png" alt="Foto de Oscar" class="about-img">
-      <div class="about-text">
-        <p> Apaixonado por tudo que envolve ciências e tecnologia, vim do Piauía para São Paulo em busca da melhor formação possível. Atualmente estou no 1* se Ciências da Computação no INSPER, me interresso pelo cetor de dados, fintechs e desenvolvimento. Participo de entidades financeiras e possuo experiências com statut, fintechs, trabalhos em grupo e educação </p>
-      </div>
-    </div>
-  </section>
-  <section id="projetos">
-    <h2>Projetos</h2>
-    <div class="grid projects">
-      <div class="card">
-        <img src="img/1.png" alt="Projeto 1">
-        <h3>O Último Chá de Alice</h3>
-        <p>Um jogo desafiador de 3 fases que irá tentas suas habilidades de reflexo, mira e autocontrole.</p>
-        <a href="[url1]" class="link" target="_blank">Bixar</a>
-      </div>
-      <div class="card">
-        <img src="img/2.png" alt="Projeto 2">
-        <h3>Subindo na cadeia alimentar</h3>
-        <p>Jogo de terminal com várias fases nas quais você entrentará uma raposa que sequestou sua esposa!</p>
-        <a href="https://github.com/insper-classroom/projeto-python-individual-OscarRodriguesFilho/archive/refs/heads/main.zip" class="link" target="_blank">Baixar</a>
-      </div>
-      <div class="card">
-        <img src="img/3.png" alt="Projeto 3">
-        <h3>Site de jogo</h3>
-        <p>Usando dos conhecimentos de Ágeis e das Heurísticas de site, desenvolvi essa página com o dising centrado no jogo</p>
-        <a href="https://insper-classroom.github.io/projeto-pygame-site-time-bege-matheus-e-oscar/" class="link" target="_blank">Ver Site</a>
-      </div>
-      <div class="card">
-        <img src="img/4.png" alt="Projeto 4">
-        <h3>Trabalho Voluntário</h3>
-        <p>Participei do desenvolvimento de um site com o intuito de gerar a amplicação da educação através da acessibilidade gratuita a programação</p>
-        <a href="https://www.gasinsper.com/" class="link" target="_blank">Ver Site</a>
-      </div>
-    </div>
-  </section>
-  <section id="certificados">
-    <h2>Principais aprovações & certificados</h2>
-    <div class="grid certs">
-      <div class="card" style="display: flex; justify-content: center; align-items: center;"> <img src="img/11.png" alt="Aprovações"  style=" width: 50%; margin: auto; padding: 20px; border-radius: 30px;"><h3 >IME (instituto militar de engeranharia), medicina UECE, UNFOR e UFRN (1* lugar), direito UFC, odontlogia UFPI e Ciências da Computação INSPER </h3></div>
 
-      <div class="card"><h3>Certificados: aguardando conclusões de cursos...</h3></div>
+<header class="topo">
+  <a class="marca" href="#inicio"><span class="marca-pt"></span>Oscar Rodrigues</a>
+  <nav>
+    <a href="#aplicacoes">Aplicações</a>
+    <a href="#repos">Repositórios</a>
+    <a href="#trajetoria">Trajetória</a>
+    <a href="#entidades">Entidades</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<!-- ============================ hero ============================ -->
+<section class="hero" id="inicio">
+  <div class="hero-texto">
+    <p class="olho">Ciência da Computação · Insper · São Paulo</p>
+    <h1>Eu construo as ferramentas que eu mesmo preciso usar.</h1>
+    <p class="chamada">
+      Guias interativos para estudar, uma plataforma de estudos com IA, visualizadores
+      de dados societários e alguns jogos. Quase tudo aqui nasceu de um problema real —
+      meu, de um time ou de uma matéria — e continuou no ar depois de resolvido.
+    </p>
+    <div class="hero-acoes">
+      <a class="btn primario" href="#aplicacoes">Ver as aplicações</a>
+      <a class="btn" href="https://github.com/OscarRodriguesFilho" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/oscar-filho-6b98a5340/" target="_blank" rel="noopener">LinkedIn</a>
     </div>
-  </section>
-  <section id="participacoes">
-    <h2>Entidades Estudantis & Eventos</h2>
-    <div class="grid participations">
-   
-      <div class="card">
-        <h3>Fintech</h3>
-        <img src="img/9.png" alt="Projeto 1" style="  height: 60px; margin-top: 10px; border-radius: 40px;  width: 11%; position:relative; top: 15px">
-        <p  style=" width: 80%; display: inline-block;">Entidade do insper especializada na criação de suloções para o mercado de fintechs, desenvolvimento de produtos e projetos.</p>
+    <dl class="numeros">
+      <div><dt>12</dt><dd>aplicações catalogadas</dd></div>
+      <div><dt>50+</dt><dd>repositórios</dd></div>
+      <div><dt>Python · TS · C</dt><dd>stacks principais</dd></div>
+    </dl>
+  </div>
+  <div class="hero-foto">
+    <img src="img/7.png" alt="Oscar Rodrigues">
+  </div>
+</section>
+
+<!-- ========================= aplicações ========================= -->
+<section id="aplicacoes" class="bloco">
+  <div class="cabeca">
+    <p class="olho">Catálogo</p>
+    <h2>Aplicações</h2>
+    <p class="sub">
+      Tudo que está publicado, com o link direto. Os guias de estudo são abertos;
+      a plataforma de estudos fica atrás de login porque consome créditos de IA.
+    </p>
+  </div>
+
+  <div class="filtros" role="group" aria-label="Filtrar aplicações">
+    <button class="chip" data-f="todas" aria-pressed="true">Todas</button>
+    <button class="chip" data-f="estudo" aria-pressed="false">Estudo &amp; ensino</button>
+    <button class="chip" data-f="dados" aria-pressed="false">Dados &amp; automação</button>
+    <button class="chip" data-f="jogos" aria-pressed="false">Jogos &amp; web</button>
+  </div>
+
+  <div class="catalogo">
+
+    <article class="app destaque" data-cat="estudo">
+      <a class="app-capa" href="https://devops-estudos-web.ciw9hh.easypanel.host" target="_blank" rel="noopener">
+        <img src="img/apps/estudos.jpg" alt="Tela da Plataforma de Estudos com uma aula aberta">
+      </a>
+      <div class="app-corpo">
+        <div class="app-topo">
+          <h3>Plataforma de Estudos</h3>
+          <span class="selo restrito">login</span>
+        </div>
+        <p>
+          Meu ambiente de estudos por matéria: aulas, slides sincronizados com o texto,
+          colinha com todo o código de cada atividade, flashcards separados entre
+          <em>decorar</em> e <em>deduzir</em>, e um tutor de IA com guardrails.
+          Compila e roda C num sandbox isolado e guarda o progresso.
+        </p>
+        <ul class="tags">
+          <li>FastAPI</li><li>MongoDB</li><li>React</li><li>TypeScript</li>
+          <li>Docker</li><li>Claude API</li>
+        </ul>
+        <div class="app-links">
+          <a class="link forte" href="https://devops-estudos-web.ciw9hh.easypanel.host" target="_blank" rel="noopener">Abrir →</a>
+          <span class="nota">código privado · 2 repositórios + docker-compose</span>
+        </div>
       </div>
-      <div class="card">
-        <h3>Startup Week</h3>
-        <img src="img/10.png" alt="Projeto 1" style="  height: 60px; margin-top: 10px; border-radius: 40px;  width: 11%; position:relative; bottom: 40px">
-        <p  style=" width: 80%; display: inline-block;">Em uma semana, desenvolvi a "plataforma mentoria", cujo o objetivo é conectar estudantes aprovados em vertibulares, que forneceram mentorias para as "manhas". Com isso, os usuários ganharam o máximo de conhecimento prático possível, aumentando sua competitividade </p>
+    </article>
+
+    <article class="app" data-cat="estudo">
+      <a class="app-capa" href="https://oscarrodriguesfilho.github.io/det-guia/" target="_blank" rel="noopener">
+        <img src="img/apps/det-guia.jpg" alt="Tela do guia Um Minuto por Foto">
+      </a>
+      <div class="app-corpo">
+        <div class="app-topo">
+          <h3>Um Minuto por Foto</h3>
+          <span class="selo">aberto</span>
+        </div>
+        <p>
+          Guia do Duolingo English Test com um item para cada tipo de questão:
+          conteúdo, questões, pegadinhas, o que vale decorar e templates completos
+          de descrição de imagem para treinar sob cronômetro.
+        </p>
+        <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>GitHub Pages</li></ul>
+        <div class="app-links">
+          <a class="link forte" href="https://oscarrodriguesfilho.github.io/det-guia/" target="_blank" rel="noopener">Abrir →</a>
+          <a class="link" href="https://github.com/OscarRodriguesFilho/det-guia" target="_blank" rel="noopener">Código</a>
+        </div>
       </div>
-    </div>
-  </section>
-  <section id="habilidades">
+    </article>
+
+    <article class="app" data-cat="estudo">
+      <a class="app-capa" href="https://oscarrodriguesfilho.github.io/compiladores-guia/" target="_blank" rel="noopener">
+        <img src="img/apps/compiladores-guia.jpg" alt="Tela do guia de Compiladores">
+      </a>
+      <div class="app-corpo">
+        <div class="app-topo">
+          <h3>Sete Classes, Quatro Roteiros</h3>
+          <span class="selo">aberto</span>
+        </div>
+        <p>
+          Guia interativo de Compiladores: linguagens formais, as aulas destrinchadas,
+          os quatro roteiros com depurador passo a passo e os extra credits.
+        </p>
+        <ul class="tags"><li>HTML</li><li>JavaScript</li><li>Linguagens formais</li></ul>
+        <div class="app-links">
+          <a class="link forte" href="https://oscarrodriguesfilho.github.io/compiladores-guia/" target="_blank" rel="noopener">Abrir →</a>
+          <a class="link" href="https://github.com/OscarRodriguesFilho/compiladores-guia" target="_blank" rel="noopener">Código</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="app" data-cat="estudo">
+      <a class="app-capa" href="https://oscarrodriguesfilho.github.io/roteiro2-interativo/" target="_blank" rel="noopener">
+        <img src="img/apps/roteiro2.jpg" alt="Tela do Roteiro 02 interativo">
+      </a>
+      <div class="app-corpo">
+        <div class="app-topo">
+          <h3>Roteiro 02 · Um token de cada vez</h3>
+          <span class="selo">aberto</span>
+        </div>
+        <p>
+          A passagem do lexer único para lexer + parser sob demanda, animada:
+          a mesma conta, uma nova arquitetura, token a token.
+        </p>
+        <ul class="tags"><li>HTML</li><li>JavaScript</li><li>Animação</li></ul>
+        <div class="app-links">
+          <a class="link forte" href="https://oscarrodriguesfilho.github.io/roteiro2-interativo/" target="_blank" rel="noopener">Abrir →</a>
+          <a class="link" href="https://github.com/OscarRodriguesFilho/roteiro2-interativo" target="_blank" rel="noopener">Código</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="app" data-cat="estudo">
+      <a class="app-capa" href="https://oscarrodriguesfilho.github.io/raiz-lab/" target="_blank" rel="noopener">
+        <img src="img/apps/raiz-lab.jpg" alt="Tela do Raiz Lab">
+      </a>
+      <div class="app-corpo">
+        <div class="app-topo">
+          <h3>Raiz Lab</h3>
+          <span class="selo">aberto</span>
+        </div>
+        <p>
+          Árvores binárias, recursão e algoritmos em C com a estrutura desenhada
+          a cada operação — para ver o que a chamada recursiva está realmente fazendo.
+        </p>
+        <ul class="tags"><li>JavaScript</li><li>C</li><li>Estrutura de dados</li></ul>
+        <div class="app-links">
+          <a class="link forte" href="https://oscarrodriguesfilho.github.io/raiz-lab/" target="_blank" rel="noopener">Abrir →</a>
+          <a class="link" href="https://github.com/OscarRodriguesFilho/raiz-lab" target="_blank" rel="noopener">Código</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="app" data-cat="dados">
+      <div class="app-capa sem-foto" aria-hidden="true"><span>{ }</span></div>
+      <div class="app-corpo">
+        <div class="app-topo">
+          <h3>Rede CNPJ</h3>
+          <span class="selo">aberto</span>
+        </div>
+        <p>
+          Visualização gráfica dos relacionamentos entre sócios e empresas a partir
+          de dados públicos de CNPJ — quem controla quem, em um grafo navegável.
+        </p>
+        <ul class="tags"><li>Python</li><li>Grafos</li><li>Dados públicos</li></ul>
+        <div class="app-links">
+          <a class="link forte" href="https://github.com/OscarRodriguesFilho/rede-cnpj-compliance" target="_blank" rel="noopener">Código →</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="app" data-cat="dados">
+      <div class="app-capa sem-foto" aria-hidden="true"><span>%</span></div>
+      <div class="app-corpo">
+        <div class="app-topo">
+          <h3>Correção de gabaritos</h3>
+          <span class="selo">aberto</span>
+        </div>
+        <p>
+          Correção de simulados em escala: analisa o resultado de todos os alunos,
+          monta gráficos de desempenho e associa cada acerto e erro à disciplina
+          do professor responsável.
+        </p>
+        <ul class="tags"><li>HTML</li><li>JavaScript</li><li>Educação</li></ul>
+        <div class="app-links">
+          <a class="link forte" href="https://github.com/OscarRodriguesFilho/corre-o-de-gabaritos-e-an-lises" target="_blank" rel="noopener">Código →</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="app" data-cat="dados">
+      <div class="app-capa sem-foto" aria-hidden="true"><span>&lt;/&gt;</span></div>
+      <div class="app-corpo">
+        <div class="app-topo">
+          <h3>Leitor de Nota</h3>
+          <span class="selo">aberto</span>
+        </div>
+        <p>
+          Extração dos campos de notas fiscais direto do documento bruto, para
+          alimentar planilha e conferência sem digitação manual.
+        </p>
+        <ul class="tags"><li>Python</li><li>Parsing</li><li>Automação</li></ul>
+        <div class="app-links">
+          <a class="link forte" href="https://github.com/OscarRodriguesFilho/leitor-nota" target="_blank" rel="noopener">Código →</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="app" data-cat="jogos">
+      <a class="app-capa" href="https://insper-classroom.github.io/projeto-pygame-site-time-bege-matheus-e-oscar/" target="_blank" rel="noopener">
+        <img src="img/1.png" alt="Arte de O Último Chá de Alice">
+      </a>
+      <div class="app-corpo">
+        <div class="app-topo">
+          <h3>O Último Chá de Alice</h3>
+          <span class="selo">aberto</span>
+        </div>
+        <p>
+          Jogo de três fases em Pygame, jogado no controle: Alice precisa atravessar
+          a Rainha de Copas, os gêmeos e a Rainha Vermelha para resgatar a Rainha Branca.
+          O site traz as telas, o trailer e o log de desenvolvimento.
+        </p>
+        <ul class="tags"><li>Python</li><li>Pygame</li><li>Design de jogo</li></ul>
+        <div class="app-links">
+          <a class="link forte" href="https://insper-classroom.github.io/projeto-pygame-site-time-bege-matheus-e-oscar/" target="_blank" rel="noopener">Ver o site →</a>
+          <span class="nota">repositório do jogo é privado (Insper Classroom)</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="app" data-cat="jogos">
+      <div class="app-capa sem-foto" aria-hidden="true"><span>¢</span></div>
+      <div class="app-corpo">
+        <div class="app-topo">
+          <h3>BirdCoins</h3>
+          <span class="selo pendente">link pendente</span>
+        </div>
+        <p>
+          Jogo autoral. A ficha já está aqui; falta apontar o endereço onde ele
+          está publicado para o botão funcionar.
+        </p>
+        <ul class="tags"><li>Jogo</li></ul>
+        <div class="app-links">
+          <span class="nota">aguardando o link de publicação</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="app" data-cat="jogos">
+      <div class="app-capa"><img src="img/2.png" alt="Tela de Subindo na Cadeia Alimentar"></div>
+      <div class="app-corpo">
+        <div class="app-topo">
+          <h3>Subindo na Cadeia Alimentar</h3>
+          <span class="selo restrito">privado</span>
+        </div>
+        <p>
+          Jogo de terminal com várias fases: você enfrenta a raposa que sequestrou
+          sua esposa. Projeto individual de Python, feito antes de eu encostar em
+          qualquer biblioteca gráfica.
+        </p>
+        <ul class="tags"><li>Python</li><li>Terminal</li></ul>
+        <div class="app-links">
+          <span class="nota">repositório privado (Insper Classroom)</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="app" data-cat="jogos">
+      <a class="app-capa" href="https://www.gasinsper.com/" target="_blank" rel="noopener">
+        <img src="img/4.png" alt="Site do GAS Insper">
+      </a>
+      <div class="app-corpo">
+        <div class="app-topo">
+          <h3>GAS Insper · voluntariado</h3>
+          <span class="selo">aberto</span>
+        </div>
+        <p>
+          Site do grupo de ação social, feito para ampliar o alcance da educação
+          por meio do acesso gratuito à programação.
+        </p>
+        <ul class="tags"><li>Web</li><li>Voluntariado</li></ul>
+        <div class="app-links">
+          <a class="link forte" href="https://www.gasinsper.com/" target="_blank" rel="noopener">Abrir →</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+  <p class="vazio-filtro" hidden>Nada nesta categoria.</p>
+</section>
+
+<!-- ======================= outros repos ========================= -->
+<section id="repos" class="bloco estreito">
+  <div class="cabeca">
+    <p class="olho">Mais código</p>
+    <h2>Outros repositórios públicos</h2>
+    <p class="sub">Trabalhos de disciplina e experimentos que não viraram aplicação, mas registram o caminho.</p>
+  </div>
+  <ul class="lista-repos">
+    <li>
+      <a href="https://github.com/OscarRodriguesFilho/projeto-software-2026-2-reservas" target="_blank" rel="noopener">projeto-software-2026-2-reservas</a>
+      <span>Sistema de reservas — Engenharia de Software</span><em>Java</em>
+    </li>
+    <li>
+      <a href="https://github.com/OscarRodriguesFilho/proj_arq_obj" target="_blank" rel="noopener">proj_arq_obj</a>
+      <span>Projeto de arquitetura de objetos</span><em>Java</em>
+    </li>
+    <li>
+      <a href="https://github.com/OscarRodriguesFilho/pf-arquitetura-de-objetos" target="_blank" rel="noopener">pf-arquitetura-de-objetos</a>
+      <span>Prova final de arquitetura de objetos</span><em>Java</em>
+    </li>
+    <li>
+      <a href="https://github.com/OscarRodriguesFilho/proj_prolog" target="_blank" rel="noopener">proj_prolog</a>
+      <span>Programação em lógica</span><em>Prolog</em>
+    </li>
+    <li>
+      <a href="https://github.com/OscarRodriguesFilho/discreta" target="_blank" rel="noopener">discreta</a>
+      <span>Matemática discreta resolvida em Prolog</span><em>Prolog</em>
+    </li>
+    <li>
+      <a href="https://github.com/OscarRodriguesFilho/points_of_change_2.0" target="_blank" rel="noopener">points_of_change_2.0</a>
+      <span>Medição diária de evolução pessoal</span><em>HTML</em>
+    </li>
+    <li>
+      <a href="https://github.com/OscarRodriguesFilho/cursinho-insper" target="_blank" rel="noopener">cursinho-insper</a>
+      <span>Material e site do cursinho</span><em>HTML</em>
+    </li>
+    <li>
+      <a href="https://github.com/OscarRodriguesFilho/ps_mat_cont" target="_blank" rel="noopener">ps_mat_cont</a>
+      <span>Matemática contínua</span><em>Python</em>
+    </li>
+  </ul>
+  <p class="nota centro">
+    Boa parte dos repositórios é privada — trabalho, entidades e matérias em andamento.
+    <a href="https://github.com/OscarRodriguesFilho" target="_blank" rel="noopener">Ver o perfil completo</a>
+  </p>
+</section>
+
+<!-- ========================= trajetória ========================= -->
+<section id="trajetoria" class="bloco estreito">
+  <div class="cabeca">
+    <p class="olho">Quem escreve isso</p>
+    <h2>Trajetória</h2>
+  </div>
+  <div class="texto">
+    <p>
+      Vim do Piauí para São Paulo atrás da melhor formação que eu conseguisse alcançar.
+      Hoje curso Ciência da Computação no Insper e me interesso pelo setor de dados,
+      por fintechs e por desenvolvimento de produto.
+    </p>
+    <p>
+      Passei por startups, fintechs, entidades estudantis e educação — e foi aí que
+      apareceu o padrão que se repete em tudo nesta página: eu aprendo construindo a
+      ferramenta. Quando a matéria aperta, eu monto o guia interativo; quando um
+      processo manual atrapalha, eu escrevo o extrator; quando preciso treinar inglês
+      sob cronômetro, eu faço o simulador.
+    </p>
+  </div>
+</section>
+
+<!-- ========================== entidades ========================= -->
+<section id="entidades" class="bloco">
+  <div class="cabeca">
+    <p class="olho">Fora da sala</p>
+    <h2>Entidades &amp; eventos</h2>
+  </div>
+  <div class="duas">
+    <article class="cartao">
+      <img class="logo" src="img/9.png" alt="Logo da Fintech Insper">
+      <h3>Fintech Insper</h3>
+      <p>
+        Entidade especializada na criação de soluções para o mercado de fintechs,
+        com desenvolvimento de produtos e condução de projetos.
+      </p>
+    </article>
+    <article class="cartao">
+      <img class="logo" src="img/10.png" alt="Logo da Startup Week">
+      <h3>Startup Week</h3>
+      <p>
+        Em uma semana desenvolvi a <strong>Plataforma Mentoria</strong>, que conecta
+        estudantes já aprovados em vestibulares a candidatos ainda em preparação —
+        passando o conhecimento prático que não aparece na apostila e aumentando a
+        competitividade de quem recebe a mentoria.
+      </p>
+    </article>
+  </div>
+</section>
+
+<!-- ========================= aprovações ========================= -->
+<section id="aprovacoes" class="bloco estreito">
+  <div class="cabeca">
+    <p class="olho">Antes da faculdade</p>
+    <h2>Aprovações</h2>
+  </div>
+  <div class="aprov">
+    <img src="img/11.png" alt="Quadro de aprovações em vestibulares">
+    <ul>
+      <li><strong>IME</strong> — Instituto Militar de Engenharia</li>
+      <li><strong>Medicina</strong> — UECE, Unifor e UFRN <em>(1º lugar)</em></li>
+      <li><strong>Direito</strong> — UFC</li>
+      <li><strong>Odontologia</strong> — UFPI</li>
+      <li><strong>Ciência da Computação</strong> — Insper <em>(curso atual)</em></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ========================= habilidades ======================== -->
+<section id="habilidades" class="bloco">
+  <div class="cabeca">
+    <p class="olho">Ferramentas</p>
     <h2>Habilidades</h2>
-    <div class="grid projects">
-      <div class="card"><h3>Python</h3></div>
-      <div class="card"><h3>JavaScript</h3></div>
-      <div class="card"><h3>HTML & CSS</h3></div>
-      <div class="card"><h3>Flask & Django</h3></div>
-      <div class="card"><h3>Inglês (avançado)</h3></div>
+  </div>
+  <div class="hab">
+    <div>
+      <h3>Linguagens</h3>
+      <ul class="tags"><li>Python</li><li>TypeScript</li><li>JavaScript</li><li>C</li><li>Java</li><li>SQL</li><li>Assembly x86-64</li><li>Prolog</li></ul>
     </div>
-  </section>
-  <section id="contato">
-    <h2>Contato</h2>
-    <div class="grid contacts">
-      <a href="https://github.com/OscarRodriguesFilho" class="contact-btn" target="_blank">GitHub</a>
-      <a href="mailto:seuemail@exemplo.com" class="contact-btn">Email</a>
-      <a href="https://www.instagram.com/oscar_rodriguesde/" class="contact-btn" target="_blank">Instagram</a>
-      <a href="https://www.linkedin.com/in/oscar-filho-6b98a5340/" class="contact-btn" target="_blank">Linkedin</a>
+    <div>
+      <h3>Back-end &amp; dados</h3>
+      <ul class="tags"><li>FastAPI</li><li>Flask</li><li>Django</li><li>MongoDB</li><li>PostgreSQL</li><li>Docker</li><li>docker-compose</li></ul>
     </div>
-  </section>
+    <div>
+      <h3>Front-end</h3>
+      <ul class="tags"><li>React</li><li>Vite</li><li>HTML &amp; CSS</li><li>nginx</li></ul>
+    </div>
+    <div>
+      <h3>IA &amp; automação</h3>
+      <ul class="tags"><li>Claude API</li><li>Servidores MCP</li><li>Agentes</li><li>Guardrails</li></ul>
+    </div>
+    <div>
+      <h3>Sistemas</h3>
+      <ul class="tags"><li>Linux</li><li>Git</li><li>GDB &amp; objdump</li><li>VPS / EasyPanel</li></ul>
+    </div>
+    <div>
+      <h3>Idiomas</h3>
+      <ul class="tags"><li>Português (nativo)</li><li>Inglês (avançado)</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- =========================== contato ========================== -->
+<section id="contato" class="bloco contato">
+  <div class="cabeca">
+    <p class="olho">Fim da página</p>
+    <h2>Vamos conversar</h2>
+    <p class="sub">Aberto a estágio, projeto ou só trocar ideia sobre qualquer coisa aqui de cima.</p>
+  </div>
+  <div class="contatos">
+    <a href="mailto:oscarfilho279@gmail.com">E-mail</a>
+    <a href="https://github.com/OscarRodriguesFilho" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/oscar-filho-6b98a5340/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://www.instagram.com/oscar_rodriguesde/" target="_blank" rel="noopener">Instagram</a>
+  </div>
+</section>
+
+<footer>
+  <span>© <span id="ano">2026</span> Oscar Rodrigues</span>
+  <span>Feito à mão, sem framework.</span>
+</footer>
+
+<script>
+  document.getElementById("ano").textContent = new Date().getFullYear();
+
+  // Filtro do catálogo.
+  const chips = document.querySelectorAll(".filtros .chip");
+  const apps = document.querySelectorAll(".catalogo .app");
+  const aviso = document.querySelector(".vazio-filtro");
+
+  chips.forEach((chip) => {
+    chip.addEventListener("click", () => {
+      const alvo = chip.dataset.f;
+      chips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
+      let visiveis = 0;
+      apps.forEach((app) => {
+        const mostra = alvo === "todas" || app.dataset.cat === alvo;
+        app.hidden = !mostra;
+        if (mostra) visiveis++;
+      });
+      aviso.hidden = visiveis > 0;
+    });
+  });
+
+  // Marca no menu a seção em que você está.
+  const links = [...document.querySelectorAll(".topo nav a")];
+  const secoes = links
+    .map((a) => document.querySelector(a.getAttribute("href")))
+    .filter(Boolean);
+
+  const observador = new IntersectionObserver(
+    (entradas) => {
+      entradas.forEach((e) => {
+        if (!e.isIntersecting) return;
+        links.forEach((a) =>
+          a.classList.toggle("ativo", a.getAttribute("href") === "#" + e.target.id)
+        );
+      });
+    },
+    { rootMargin: "-45% 0px -50% 0px" }
+  );
+  secoes.forEach((s) => observador.observe(s));
+</script>
+
 </body>
 </html>
