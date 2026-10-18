@@ -7,8 +7,8 @@
   <meta name="description" content="Aplicações, guias de estudo e projetos de Oscar Rodrigues — Ciência da Computação no Insper.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
 
@@ -68,18 +68,18 @@
     <button class="chip" data-f="jogos" aria-pressed="false">Jogos &amp; web</button>
   </div>
 
-  <div class="catalogo">
+  <div class="vitrines">
 
-    <article class="app destaque" data-cat="estudo">
-      <a class="app-capa" href="https://devops-estudos-web.ciw9hh.easypanel.host" target="_blank" rel="noopener">
+    <article class="app vitrine" data-cat="estudo">
+      <a class="quadro" href="https://devops-estudos-web.ciw9hh.easypanel.host" target="_blank" rel="noopener">
+        <span class="barra"><i></i><i></i><i></i><code>devops-estudos-web.ciw9hh.easypanel.host</code></span>
         <img src="img/apps/estudos.jpg" alt="Tela da Plataforma de Estudos com uma aula aberta">
       </a>
-      <div class="app-corpo">
-        <div class="app-topo">
-          <h3>Plataforma de Estudos</h3>
-          <span class="selo restrito">login</span>
-        </div>
-        <p>
+      <div class="ficha">
+        <p class="ficha-num">01 · Estudo &amp; ensino</p>
+        <h3>Plataforma de Estudos</h3>
+        <span class="selo restrito">acesso com login</span>
+        <p class="ficha-txt">
           Meu ambiente de estudos por matéria: aulas, slides sincronizados com o texto,
           colinha com todo o código de cada atividade, flashcards separados entre
           <em>decorar</em> e <em>deduzir</em>, e um tutor de IA com guardrails.
@@ -89,231 +89,209 @@
           <li>FastAPI</li><li>MongoDB</li><li>React</li><li>TypeScript</li>
           <li>Docker</li><li>Claude API</li>
         </ul>
-        <div class="app-links">
-          <a class="link forte" href="https://devops-estudos-web.ciw9hh.easypanel.host" target="_blank" rel="noopener">Abrir →</a>
+        <div class="acoes">
+          <a class="link forte" href="https://devops-estudos-web.ciw9hh.easypanel.host" target="_blank" rel="noopener">Abrir a plataforma →</a>
           <span class="nota">código privado · 2 repositórios + docker-compose</span>
         </div>
       </div>
     </article>
 
-    <article class="app" data-cat="estudo">
-      <a class="app-capa" href="https://oscarrodriguesfilho.github.io/det-guia/" target="_blank" rel="noopener">
+    <article class="app vitrine" data-cat="estudo">
+      <a class="quadro" href="https://oscarrodriguesfilho.github.io/det-guia/" target="_blank" rel="noopener">
+        <span class="barra"><i></i><i></i><i></i><code>oscarrodriguesfilho.github.io/det-guia</code></span>
         <img src="img/apps/det-guia.jpg" alt="Tela do guia Um Minuto por Foto">
       </a>
-      <div class="app-corpo">
-        <div class="app-topo">
-          <h3>Um Minuto por Foto</h3>
-          <span class="selo">aberto</span>
-        </div>
-        <p>
+      <div class="ficha">
+        <p class="ficha-num">02 · Estudo &amp; ensino</p>
+        <h3>Um Minuto por Foto</h3>
+        <span class="selo">aberto</span>
+        <p class="ficha-txt">
           Guia do Duolingo English Test com um item para cada tipo de questão:
           conteúdo, questões, pegadinhas, o que vale decorar e templates completos
           de descrição de imagem para treinar sob cronômetro.
         </p>
         <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>GitHub Pages</li></ul>
-        <div class="app-links">
+        <div class="acoes">
           <a class="link forte" href="https://oscarrodriguesfilho.github.io/det-guia/" target="_blank" rel="noopener">Abrir →</a>
           <a class="link" href="https://github.com/OscarRodriguesFilho/det-guia" target="_blank" rel="noopener">Código</a>
         </div>
       </div>
     </article>
 
-    <article class="app" data-cat="estudo">
-      <a class="app-capa" href="https://oscarrodriguesfilho.github.io/compiladores-guia/" target="_blank" rel="noopener">
+    <article class="app vitrine" data-cat="estudo">
+      <a class="quadro" href="https://oscarrodriguesfilho.github.io/compiladores-guia/" target="_blank" rel="noopener">
+        <span class="barra"><i></i><i></i><i></i><code>oscarrodriguesfilho.github.io/compiladores-guia</code></span>
         <img src="img/apps/compiladores-guia.jpg" alt="Tela do guia de Compiladores">
       </a>
-      <div class="app-corpo">
-        <div class="app-topo">
-          <h3>Sete Classes, Quatro Roteiros</h3>
-          <span class="selo">aberto</span>
-        </div>
-        <p>
+      <div class="ficha">
+        <p class="ficha-num">03 · Estudo &amp; ensino</p>
+        <h3>Sete Classes, Quatro Roteiros</h3>
+        <span class="selo">aberto</span>
+        <p class="ficha-txt">
           Guia interativo de Compiladores: linguagens formais, as aulas destrinchadas,
           os quatro roteiros com depurador passo a passo e os extra credits.
         </p>
         <ul class="tags"><li>HTML</li><li>JavaScript</li><li>Linguagens formais</li></ul>
-        <div class="app-links">
+        <div class="acoes">
           <a class="link forte" href="https://oscarrodriguesfilho.github.io/compiladores-guia/" target="_blank" rel="noopener">Abrir →</a>
           <a class="link" href="https://github.com/OscarRodriguesFilho/compiladores-guia" target="_blank" rel="noopener">Código</a>
         </div>
       </div>
     </article>
 
-    <article class="app" data-cat="estudo">
-      <a class="app-capa" href="https://oscarrodriguesfilho.github.io/roteiro2-interativo/" target="_blank" rel="noopener">
+    <article class="app vitrine" data-cat="estudo">
+      <a class="quadro" href="https://oscarrodriguesfilho.github.io/roteiro2-interativo/" target="_blank" rel="noopener">
+        <span class="barra"><i></i><i></i><i></i><code>oscarrodriguesfilho.github.io/roteiro2-interativo</code></span>
         <img src="img/apps/roteiro2.jpg" alt="Tela do Roteiro 02 interativo">
       </a>
-      <div class="app-corpo">
-        <div class="app-topo">
-          <h3>Roteiro 02 · Um token de cada vez</h3>
-          <span class="selo">aberto</span>
-        </div>
-        <p>
+      <div class="ficha">
+        <p class="ficha-num">04 · Estudo &amp; ensino</p>
+        <h3>Roteiro 02 · Um token de cada vez</h3>
+        <span class="selo">aberto</span>
+        <p class="ficha-txt">
           A passagem do lexer único para lexer + parser sob demanda, animada:
           a mesma conta, uma nova arquitetura, token a token.
         </p>
         <ul class="tags"><li>HTML</li><li>JavaScript</li><li>Animação</li></ul>
-        <div class="app-links">
+        <div class="acoes">
           <a class="link forte" href="https://oscarrodriguesfilho.github.io/roteiro2-interativo/" target="_blank" rel="noopener">Abrir →</a>
           <a class="link" href="https://github.com/OscarRodriguesFilho/roteiro2-interativo" target="_blank" rel="noopener">Código</a>
         </div>
       </div>
     </article>
 
-    <article class="app" data-cat="estudo">
-      <a class="app-capa" href="https://oscarrodriguesfilho.github.io/raiz-lab/" target="_blank" rel="noopener">
+    <article class="app vitrine" data-cat="estudo">
+      <a class="quadro" href="https://oscarrodriguesfilho.github.io/raiz-lab/" target="_blank" rel="noopener">
+        <span class="barra"><i></i><i></i><i></i><code>oscarrodriguesfilho.github.io/raiz-lab</code></span>
         <img src="img/apps/raiz-lab.jpg" alt="Tela do Raiz Lab">
       </a>
-      <div class="app-corpo">
-        <div class="app-topo">
-          <h3>Raiz Lab</h3>
-          <span class="selo">aberto</span>
-        </div>
-        <p>
+      <div class="ficha">
+        <p class="ficha-num">05 · Estudo &amp; ensino</p>
+        <h3>Raiz Lab</h3>
+        <span class="selo">aberto</span>
+        <p class="ficha-txt">
           Árvores binárias, recursão e algoritmos em C com a estrutura desenhada
           a cada operação — para ver o que a chamada recursiva está realmente fazendo.
         </p>
         <ul class="tags"><li>JavaScript</li><li>C</li><li>Estrutura de dados</li></ul>
-        <div class="app-links">
+        <div class="acoes">
           <a class="link forte" href="https://oscarrodriguesfilho.github.io/raiz-lab/" target="_blank" rel="noopener">Abrir →</a>
           <a class="link" href="https://github.com/OscarRodriguesFilho/raiz-lab" target="_blank" rel="noopener">Código</a>
         </div>
       </div>
     </article>
 
-    <article class="app" data-cat="dados">
-      <div class="app-capa sem-foto" aria-hidden="true"><span>{ }</span></div>
-      <div class="app-corpo">
-        <div class="app-topo">
-          <h3>Rede CNPJ</h3>
-          <span class="selo">aberto</span>
-        </div>
-        <p>
-          Visualização gráfica dos relacionamentos entre sócios e empresas a partir
-          de dados públicos de CNPJ — quem controla quem, em um grafo navegável.
-        </p>
-        <ul class="tags"><li>Python</li><li>Grafos</li><li>Dados públicos</li></ul>
-        <div class="app-links">
-          <a class="link forte" href="https://github.com/OscarRodriguesFilho/rede-cnpj-compliance" target="_blank" rel="noopener">Código →</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="app" data-cat="dados">
-      <div class="app-capa sem-foto" aria-hidden="true"><span>%</span></div>
-      <div class="app-corpo">
-        <div class="app-topo">
-          <h3>Correção de gabaritos</h3>
-          <span class="selo">aberto</span>
-        </div>
-        <p>
-          Correção de simulados em escala: analisa o resultado de todos os alunos,
-          monta gráficos de desempenho e associa cada acerto e erro à disciplina
-          do professor responsável.
-        </p>
-        <ul class="tags"><li>HTML</li><li>JavaScript</li><li>Educação</li></ul>
-        <div class="app-links">
-          <a class="link forte" href="https://github.com/OscarRodriguesFilho/corre-o-de-gabaritos-e-an-lises" target="_blank" rel="noopener">Código →</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="app" data-cat="dados">
-      <div class="app-capa sem-foto" aria-hidden="true"><span>&lt;/&gt;</span></div>
-      <div class="app-corpo">
-        <div class="app-topo">
-          <h3>Leitor de Nota</h3>
-          <span class="selo">aberto</span>
-        </div>
-        <p>
-          Extração dos campos de notas fiscais direto do documento bruto, para
-          alimentar planilha e conferência sem digitação manual.
-        </p>
-        <ul class="tags"><li>Python</li><li>Parsing</li><li>Automação</li></ul>
-        <div class="app-links">
-          <a class="link forte" href="https://github.com/OscarRodriguesFilho/leitor-nota" target="_blank" rel="noopener">Código →</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="app" data-cat="jogos">
-      <a class="app-capa" href="https://insper-classroom.github.io/projeto-pygame-site-time-bege-matheus-e-oscar/" target="_blank" rel="noopener">
+    <article class="app vitrine" data-cat="jogos">
+      <a class="quadro" href="https://insper-classroom.github.io/projeto-pygame-site-time-bege-matheus-e-oscar/" target="_blank" rel="noopener">
         <img src="img/1.png" alt="Arte de O Último Chá de Alice">
       </a>
-      <div class="app-corpo">
-        <div class="app-topo">
-          <h3>O Último Chá de Alice</h3>
-          <span class="selo">aberto</span>
-        </div>
-        <p>
+      <div class="ficha">
+        <p class="ficha-num">06 · Jogos &amp; web</p>
+        <h3>O Último Chá de Alice</h3>
+        <span class="selo">aberto</span>
+        <p class="ficha-txt">
           Jogo de três fases em Pygame, jogado no controle: Alice precisa atravessar
           a Rainha de Copas, os gêmeos e a Rainha Vermelha para resgatar a Rainha Branca.
           O site traz as telas, o trailer e o log de desenvolvimento.
         </p>
         <ul class="tags"><li>Python</li><li>Pygame</li><li>Design de jogo</li></ul>
-        <div class="app-links">
+        <div class="acoes">
           <a class="link forte" href="https://insper-classroom.github.io/projeto-pygame-site-time-bege-matheus-e-oscar/" target="_blank" rel="noopener">Ver o site →</a>
           <span class="nota">repositório do jogo é privado (Insper Classroom)</span>
         </div>
       </div>
     </article>
 
-    <article class="app" data-cat="jogos">
-      <div class="app-capa sem-foto" aria-hidden="true"><span>¢</span></div>
-      <div class="app-corpo">
-        <div class="app-topo">
-          <h3>BirdCoins</h3>
-          <span class="selo pendente">link pendente</span>
-        </div>
-        <p>
-          Jogo autoral. A ficha já está aqui; falta apontar o endereço onde ele
-          está publicado para o botão funcionar.
-        </p>
-        <ul class="tags"><li>Jogo</li></ul>
-        <div class="app-links">
-          <span class="nota">aguardando o link de publicação</span>
-        </div>
+    <article class="app vitrine" data-cat="jogos">
+      <div class="quadro">
+        <img src="img/2.png" alt="Tela de Subindo na Cadeia Alimentar">
       </div>
-    </article>
-
-    <article class="app" data-cat="jogos">
-      <div class="app-capa"><img src="img/2.png" alt="Tela de Subindo na Cadeia Alimentar"></div>
-      <div class="app-corpo">
-        <div class="app-topo">
-          <h3>Subindo na Cadeia Alimentar</h3>
-          <span class="selo restrito">privado</span>
-        </div>
-        <p>
+      <div class="ficha">
+        <p class="ficha-num">07 · Jogos &amp; web</p>
+        <h3>Subindo na Cadeia Alimentar</h3>
+        <span class="selo restrito">repositório privado</span>
+        <p class="ficha-txt">
           Jogo de terminal com várias fases: você enfrenta a raposa que sequestrou
           sua esposa. Projeto individual de Python, feito antes de eu encostar em
           qualquer biblioteca gráfica.
         </p>
         <ul class="tags"><li>Python</li><li>Terminal</li></ul>
-        <div class="app-links">
-          <span class="nota">repositório privado (Insper Classroom)</span>
+        <div class="acoes">
+          <span class="nota">código fechado no Insper Classroom</span>
         </div>
       </div>
     </article>
 
-    <article class="app" data-cat="jogos">
-      <a class="app-capa" href="https://www.gasinsper.com/" target="_blank" rel="noopener">
+    <article class="app vitrine" data-cat="jogos">
+      <a class="quadro" href="https://www.gasinsper.com/" target="_blank" rel="noopener">
+        <span class="barra"><i></i><i></i><i></i><code>gasinsper.com</code></span>
         <img src="img/4.png" alt="Site do GAS Insper">
       </a>
-      <div class="app-corpo">
-        <div class="app-topo">
-          <h3>GAS Insper · voluntariado</h3>
-          <span class="selo">aberto</span>
-        </div>
-        <p>
+      <div class="ficha">
+        <p class="ficha-num">08 · Jogos &amp; web</p>
+        <h3>GAS Insper · voluntariado</h3>
+        <span class="selo">aberto</span>
+        <p class="ficha-txt">
           Site do grupo de ação social, feito para ampliar o alcance da educação
           por meio do acesso gratuito à programação.
         </p>
         <ul class="tags"><li>Web</li><li>Voluntariado</li></ul>
-        <div class="app-links">
+        <div class="acoes">
           <a class="link forte" href="https://www.gasinsper.com/" target="_blank" rel="noopener">Abrir →</a>
         </div>
       </div>
     </article>
+
+    <div class="compactos">
+      <article class="app curto" data-cat="dados">
+        <span class="glifo">{ }</span>
+        <h3>Rede CNPJ</h3>
+        <span class="selo">aberto</span>
+        <p>
+          Visualização gráfica dos relacionamentos entre sócios e empresas a partir
+          de dados públicos de CNPJ — quem controla quem, em um grafo navegável.
+        </p>
+        <ul class="tags"><li>Python</li><li>Grafos</li></ul>
+        <a class="link forte" href="https://github.com/OscarRodriguesFilho/rede-cnpj-compliance" target="_blank" rel="noopener">Código →</a>
+      </article>
+
+      <article class="app curto" data-cat="dados">
+        <span class="glifo">%</span>
+        <h3>Correção de gabaritos</h3>
+        <span class="selo">aberto</span>
+        <p>
+          Correção de simulados em escala: analisa o resultado de todos os alunos,
+          monta gráficos de desempenho e associa cada acerto e erro à disciplina
+          do professor responsável.
+        </p>
+        <ul class="tags"><li>HTML</li><li>JavaScript</li></ul>
+        <a class="link forte" href="https://github.com/OscarRodriguesFilho/corre-o-de-gabaritos-e-an-lises" target="_blank" rel="noopener">Código →</a>
+      </article>
+
+      <article class="app curto" data-cat="dados">
+        <span class="glifo">&lt;/&gt;</span>
+        <h3>Leitor de Nota</h3>
+        <span class="selo">aberto</span>
+        <p>
+          Extração dos campos de notas fiscais direto do documento bruto, para
+          alimentar planilha e conferência sem digitação manual.
+        </p>
+        <ul class="tags"><li>Python</li><li>Parsing</li></ul>
+        <a class="link forte" href="https://github.com/OscarRodriguesFilho/leitor-nota" target="_blank" rel="noopener">Código →</a>
+      </article>
+
+      <article class="app curto" data-cat="jogos">
+        <span class="glifo">¢</span>
+        <h3>BirdCoins</h3>
+        <span class="selo pendente">link pendente</span>
+        <p>
+          Jogo autoral. A ficha já está aqui; falta apontar o endereço onde ele
+          está publicado para o botão funcionar.
+        </p>
+        <ul class="tags"><li>Jogo</li></ul>
+        <span class="nota">aguardando o link de publicação</span>
+      </article>
+    </div>
 
   </div>
   <p class="vazio-filtro" hidden>Nada nesta categoria.</p>
@@ -491,21 +469,26 @@
 <script>
   document.getElementById("ano").textContent = new Date().getFullYear();
 
-  // Filtro do catálogo.
+  // Filtro do catálogo: vale para as vitrines e para os cartões curtos.
   const chips = document.querySelectorAll(".filtros .chip");
-  const apps = document.querySelectorAll(".catalogo .app");
+  const apps = document.querySelectorAll("[data-cat]");
+  const curtos = document.querySelector(".compactos");
   const aviso = document.querySelector(".vazio-filtro");
 
   chips.forEach((chip) => {
     chip.addEventListener("click", () => {
       const alvo = chip.dataset.f;
       chips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
+
       let visiveis = 0;
       apps.forEach((app) => {
         const mostra = alvo === "todas" || app.dataset.cat === alvo;
         app.hidden = !mostra;
         if (mostra) visiveis++;
       });
+
+      // Some com o grupo dos cartões curtos quando nenhum deles sobrou.
+      curtos.hidden = ![...curtos.children].some((c) => !c.hidden);
       aviso.hidden = visiveis > 0;
     });
   });
@@ -528,6 +511,19 @@
     { rootMargin: "-45% 0px -50% 0px" }
   );
   secoes.forEach((s) => observador.observe(s));
+
+  // Revela cada vitrine ao entrar na tela.
+  const revelar = new IntersectionObserver(
+    (entradas, obs) => {
+      entradas.forEach((e) => {
+        if (!e.isIntersecting) return;
+        e.target.classList.add("visivel");
+        obs.unobserve(e.target);
+      });
+    },
+    { rootMargin: "0px 0px -12% 0px" }
+  );
+  document.querySelectorAll(".vitrine, .curto").forEach((v) => revelar.observe(v));
 </script>
 
 </body>
